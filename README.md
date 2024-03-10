@@ -18,6 +18,8 @@ The program takes in three command-line arguments:
     c. Bracketed phrases or sentences may span multiple lines of the input file.
     d. A single line of the input file may contain multiple bracketed important phrases; each should be output as a separate bullet point in the study guide.
 
+TO CREATE THE FLASHCARDS:
+
 The additional feature of this project is a flashcard feature. In the .md files, there can now be question and answer blocks: 
 
 Example: `[[What is the chemical symbol for hydrogen?:::The symbol is H.]]`.
@@ -27,6 +29,8 @@ Example: `[[What is the chemical symbol for hydrogen?:::The symbol is H.]]`.
 - As the study guide is generated, the question and answer blocks are saved into a separate file that has the same name as the study guide but with extension `.sr` instead of `.md`.
   - It is a text-based file.
   - It is stored in the same location as the study guide .md file.
+ 
+TO USE THE FLASHCARD FEATURE:
 
 1. The user inputs a `.sr` file path that contains a set of questions and their associated metadata.
 2. The user indicates how many questions they would like to be presented in this study session. If the total number of questions in the question bank is smaller than the total number of questions the user wants to practice, they will be quizzed on all the questions in the file. 
